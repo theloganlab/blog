@@ -1,7 +1,7 @@
 +++
 title = "Driver - Write up"
 date = "2022-07-07T21:21:40-05:00"
-author = ""
+author = "l0gan334"
 authorTwitter = "" #do not include @
 cover = "Driver.png"
 tags = ["hacking", "ctf", "eJPT-like", "HTB", "windows", "print_nightmare", "printer"]
