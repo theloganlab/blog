@@ -1,9 +1,9 @@
 +++
-title = "Validation"
+title = "Validation - Write up"
 date = "2022-06-22T21:03:46-05:00"
 author = "l0gan334"
 cover = "Validation.png"
-tags = ["hacking", "ctf", "HTB"]
+tags = ["hacking", "ctf", "eJPT-like", "HTB", "linux"]
 keywords = ["", ""]
 description = "**HTB | Validation - Write up**"
 showFullContent = false
@@ -15,6 +15,7 @@ hideComments = false
 
 Its main challenge is **SQL Injection** where we're going to be able to write a **webshell** into the web server. 
 
+# **```Recon```**
 # Nmap scan
 With **nmap** we will find opened ports and examinate them:
 ```bash 
@@ -49,7 +50,7 @@ extractPorts () {
 
 Now that we have the opened ports we can examinate them deeply.
 ```bash
-nmap -sCV -p 22,80,4566.8080 -oN targeted
+nmap -sCV -p 22,80,4566.8080 10.129.84.93 -oN targeted
 
 Starting Nmap 7.92 ( https://nmap.org ) at 2022-06-23 12:55 -05
 Nmap scan report for 10.129.84.93
@@ -114,6 +115,8 @@ So now we can write a simple web shell in **php** and get **Remote Command Execu
 
 This script will create a **webshell** in **/shell.php** which takes the parameter **cmd** to execute commands:
 {{< image src="/img/val-7.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+
+# **```Intrusion```**
 
 Now we can get a reverse shell with this payload:
 ```bash
