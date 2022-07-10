@@ -1,5 +1,5 @@
 +++
-title = "Validation - Write up"
+title = "HTB: Validation"
 date = "2022-06-22T21:03:46-05:00"
 author = "l0gan334"
 cover = "Validation.png"

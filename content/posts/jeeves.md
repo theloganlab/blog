@@ -1,5 +1,5 @@
 +++
-title = "Jeeves - Write up"
+title = "HTB: Jeeves"
 date = "2022-07-06T18:45:24-05:00"
 author = "l0gan334"
 authorTwitter = "" #do not include @

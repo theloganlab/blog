@@ -1,5 +1,5 @@
 +++
-title = "Epsilon - Write up"
+title = "HTB: Epsilon"
 date = "2022-07-06T20:51:39-05:00"
 author = "l0gan334"
 authorTwitter = "" #do not include @

@@ -1,5 +1,5 @@
 +++
-title = "Return - Write up"
+title = "HTB: Return"
 date = "2022-07-04T12:35:18-05:00"
 author = "l0gan334"
 cover = "Return.png"

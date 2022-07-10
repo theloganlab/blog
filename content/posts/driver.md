@@ -1,5 +1,5 @@
 +++
-title = "Driver - Write up"
+title = "HTB: Driver"
 date = "2022-07-07T21:21:40-05:00"
 author = "l0gan334"
 authorTwitter = "" #do not include @
